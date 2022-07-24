@@ -19,7 +19,7 @@ public class CloudConfigEntity {
     @Column
     private String label;
 
-    @Column
+    @Column(name = "key_config")
     private String key;
 
     @Column
